@@ -1,20 +1,21 @@
 <template>
-  <div class="container">
-    <h1 class="sample">HEllo world</h1>
-  </div>
+  <the-header></the-header>
 </template>
 
 <script>
+import TheHeader from "./components/layout/TheHeader.vue";
+
 export default {
-  components: {},
+  components: {
+    TheHeader,
+  },
 };
 </script>
 
-<style lang="postcss" scoped>
-.container {
-  @apply bg-neutral-800;
-}
-.sample {
-  @apply text-9xl text-red-500;
+<style lang="postcss">
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+body {
+  @apply font-sans;
 }
 </style>
