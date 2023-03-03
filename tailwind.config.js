@@ -80,6 +80,10 @@ module.exports = {
           700: '#B32318',
           900: '#7A271A',
         },
+        shades: {
+          'white': '#FFFFFF',
+          'black': '#00000'
+        }
 
       }
     },

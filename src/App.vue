@@ -1,19 +1,19 @@
 <template>
-  <the-header></the-header>
+  <the-panel></the-panel>
 </template>
 
 <script>
-import TheHeader from "./components/layout/TheHeader.vue";
+import ThePanel from "./components/layout/ThePanel.vue";
 
 export default {
   components: {
-    TheHeader,
+    ThePanel,
   },
 };
 </script>
 
 <style lang="postcss">
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 body {
   @apply font-sans;
