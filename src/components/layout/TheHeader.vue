@@ -1,6 +1,6 @@
 <template>
   <header class="header-container">
-    <div>
+    <div class="img__wrapper">
       <img src="../../assets/logo.png" alt="Logo" class="header-img" />
     </div>
     <div class="cta-wrapper">
@@ -22,14 +22,22 @@ export default {};
 
 <style lang="postcss" scoped>
 .header-container {
-  @apply px-9 pt-4 pb-6 border-b-[.3px] border-solid border-neutral-300;
+  @apply md:max-md:flex md:max-md:flex-col md:max-md:justify-center lg:items-center px-9 py-4 lg:pb-6 border-b-[.3px] border-solid border-neutral-300;
+}
+
+.img__wrapper {
+  @apply flex justify-center lg:justify-start;
 }
 
 .header-img {
-  @apply w-full max-w-[11.25rem];
+  @apply w-full max-w-[13rem] md:max-w-[11.25rem];
 }
 
 .cta-wrapper {
-  @apply flex items-center justify-between text-neutral-400 text-base font-medium mt-7;
+  @apply text-neutral-400 text-base font-medium mt-7 lg:flex lg:items-center lg:justify-between;
+}
+
+.cta-wrapper button {
+  @apply w-full mb-4 lg:mb-0;
 }
 </style>

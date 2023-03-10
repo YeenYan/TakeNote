@@ -25,6 +25,6 @@ body {
 }
 
 main {
-  @apply flex;
+  @apply md:flex;
 }
 </style>

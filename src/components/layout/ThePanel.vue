@@ -4,7 +4,6 @@
 
     <div class="label-menu__wrapper">
       <p class="label-text">Label</p>
-      <span class="material-symbols-outlined nav-icon-right"> expand_more </span>
     </div>
 
     <the-navigation></the-navigation>
@@ -28,15 +27,11 @@ export default {
 
 <style lang="postcss" scoped>
 .panel-container {
-  @apply flex flex-col w-full max-w-[23rem] h-screen border-r-[.3px] border-solid border-neutral-300 relative;
+  @apply lg:flex lg:flex-col w-full lg:max-w-[23rem] h-screen border-r-[.3px] border-solid border-neutral-300 relative;
 }
 
 .label-menu__wrapper {
   @apply flex items-center justify-between w-full px-9 py-5 border-b-[.3px] border-solid border-neutral-300;
-}
-
-.nav-icon-right {
-  @apply text-neutral-500 mr-5 hidden;
 }
 
 .label-text {
@@ -49,7 +44,7 @@ export default {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  @apply md:w-2.5;
 }
 
 /* Track */

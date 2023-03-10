@@ -17,11 +17,11 @@ export default {};
 }
 
 .nav-header__menu {
-  @apply flex items-center w-full px-9 py-5 border-b-[.3px] border-solid border-neutral-300;
+  @apply w-max max-w-[18.75rem] flex-1 px-5 py-9 bg-shades-white rounded drop-shadow-md md:w-full md:max-w-full lg:max-w-full md:flex md:items-center md:rounded-none md:drop-shadow-none md:px-9 md:py-5 md:border-b-[.3px] md:border-solid md:border-neutral-300;
 }
 
 .nav-icon-left {
-  @apply text-neutral-500 mr-5;
+  @apply text-neutral-500 mr-5 hidden md:inline-block;
 }
 
 .label-title {
