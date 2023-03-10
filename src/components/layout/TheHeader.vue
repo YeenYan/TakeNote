@@ -1,5 +1,5 @@
 <template>
-  <div class="header-container">
+  <header class="header-container">
     <div>
       <img src="../../assets/logo.png" alt="Logo" class="header-img" />
     </div>
@@ -13,7 +13,7 @@
 
       <p>4 notes</p>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 <template>
-  <div class="footer-container">
+  <footer class="footer-container">
     <p>Copyright: © {{ getCurrentYear }}</p>
     <p>Design & Built by Mark Ian Reyes</p>
-  </div>
+  </footer>
 </template>
 
 <script>

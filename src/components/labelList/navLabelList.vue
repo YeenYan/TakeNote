@@ -17,7 +17,7 @@ export default {};
 }
 
 .nav-header__menu {
-  @apply flex items-center w-full px-9 py-5 border-t-[.3px] border-solid border-neutral-300;
+  @apply flex items-center w-full px-9 py-5 border-b-[.3px] border-solid border-neutral-300;
 }
 
 .nav-icon-left {
