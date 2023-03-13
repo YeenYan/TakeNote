@@ -27,7 +27,7 @@ export default {
 
 <style lang="postcss" scoped>
 .panel-container {
-  @apply lg:flex lg:flex-col w-full lg:max-w-[23rem] h-screen border-r-[.3px] border-solid border-neutral-300 relative;
+  @apply h-fit border-r-[.3px] border-solid border-neutral-300 md:flex md:flex-col w-full md:max-w-[23rem] md:h-screen;
 }
 
 .label-menu__wrapper {
@@ -59,6 +59,6 @@ export default {
 
 /* Footer Container */
 .panel-container > :last-child {
-  @apply pl-9;
+  @apply pl-9 bg-shades-white absolute bottom-0 z-10 w-full text-center md:text-left md:relative;
 }
 </style>

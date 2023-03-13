@@ -13,7 +13,7 @@ export default {
 
 <style lang="postcss" scoped>
 .btn {
-  @apply text-shades-white text-base flex items-center justify-center py-3 px-8 rounded w-full lg:max-w-fit;
+  @apply text-shades-white text-base flex items-center justify-center py-3 px-8 rounded w-full md:max-w-fit;
 }
 
 .btn :deep(.btn-icon) {

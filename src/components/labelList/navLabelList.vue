@@ -25,6 +25,6 @@ export default {};
 }
 
 .label-title {
-  @apply text-lg font-semibold text-neutral-600;
+  @apply text-base md:text-lg font-semibold text-neutral-600;
 }
 </style>

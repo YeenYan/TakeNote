@@ -25,6 +25,6 @@ body {
 }
 
 main {
-  @apply md:flex;
+  @apply md:flex relative;
 }
 </style>

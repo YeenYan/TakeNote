@@ -34,10 +34,10 @@ export default {};
 }
 
 .cta-wrapper {
-  @apply text-neutral-400 text-base font-medium mt-7 lg:flex lg:items-center lg:justify-between;
+  @apply text-neutral-400 text-base font-medium mt-7 sm:flex sm:justify-between sm:items-center md:flex-row;
 }
 
 .cta-wrapper button {
-  @apply w-full mb-4 lg:mb-0;
+  @apply w-full mb-4 sm:w-6/12 sm:mb-0 md:w-full lg:mb-0;
 }
 </style>

@@ -51,7 +51,7 @@ export default {
 
 <style lang="postcss" scoped>
 section {
-  @apply w-full h-screen relative grid grid-rows-[auto,_1fr];
+  @apply w-full h-screen grid grid-rows-[auto,_1fr];
 }
 
 section > :last-child {
@@ -97,11 +97,11 @@ section > :last-child {
 }
 
 .notes-actions__wrapper {
-  @apply flex gap-3.5;
+  @apply lg:flex gap-3.5;
 }
 
 .notes-search__wrapper {
-  @apply flex flex-1 items-center w-full h-[3rem] bg-neutral-100 px-2.5 rounded;
+  @apply flex flex-1 items-center w-full h-[3rem] bg-neutral-100 px-2.5 rounded mb-2.5 lg:mb-0;
 }
 
 .notes-search__wrapper span {
@@ -113,6 +113,10 @@ section > :last-child {
 }
 
 .notes-btn__wrapper {
-  @apply flex gap-2;
+  @apply flex flex-col sm:flex-row md:flex gap-2;
+}
+
+.notes-btn__wrapper button {
+  @apply w-full md:max-w-full lg:max-w-fit;
 }
 </style>
